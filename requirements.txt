@@ -1,0 +1,11 @@
+scikit-learn
+numpy
+pandas
+loguru
+tensorflow
+tensorboard
+tqdm
+matplotlib
+autograd
+pysr
+taichi
