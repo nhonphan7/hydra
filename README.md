@@ -142,7 +142,7 @@ Please cite our paper if you find this code useful:
 @article{phan2025hydra,
     title={HYDRA: Symbolic feature engineering of overparameterized Eulerian hyperelasticity models for fast inference time},
     author={Phan, Nhon N and Sun, WaiChing and Clayton, John D},
-    journal={Computer Methods in Applied Mechanics and Engineering, accepted},
+    journal={Computer Methods in Applied Mechanics and Engineering, in press},
     year={2025},
     publisher={Elsevier}
 }
