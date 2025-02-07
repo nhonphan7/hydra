@@ -18,7 +18,7 @@ Fig. 2: Inference step of a NAM in the projected feature space. A linear transfo
 
 Fig. 3: Hierarchical structure of the expression tree. The learned hyperelastic energy functional is expressed as a linear combination of univariate bases, which further are functions of a linear combination of strain components.
 
-Note that while HYDRA is set up to take the Eulerian finite strain and predict the free energy functional (and, in turn, the Eulerian analog of the second Piola-Kirchhoff stress), its framework can be modified for any inputs and outputs. For more information, please refer to our paper.
+Note that while HYDRA is set up to take the Eulerian finite strain and predict the free energy functional (and, in turn, the Eulerian analog of the second Piola-Kirchhoff stress), its framework can be modified for any inputs and outputs. For more information, please refer to our [paper](https://www.sciencedirect.com/science/article/pii/S0045782525000647).
 
 ## Installation
 
@@ -136,13 +136,15 @@ Replace `data_set` with `isotropic`, `cubic`, or `md_eulerian`.
 
 ## Citation
 
-Please cite our paper if you find this code useful:
+Please cite our [paper](https://www.sciencedirect.com/science/article/pii/S0045782525000647) if you find this code useful:
 
 ```bibtex
 @article{phan2025hydra,
     title={HYDRA: Symbolic feature engineering of overparameterized Eulerian hyperelasticity models for fast inference time},
     author={Phan, Nhon N and Sun, WaiChing and Clayton, John D},
-    journal={Computer Methods in Applied Mechanics and Engineering, in press},
+    journal={Computer Methods in Applied Mechanics and Engineering},
+    volume={437},
+    pages={117792},
     year={2025},
     publisher={Elsevier}
 }
